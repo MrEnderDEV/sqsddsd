@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лучший VPN для Обхода Блокировок | Настройка VLESS, Trojan, Marzban, V2Ray</title>
+    <meta name="description" content="Быстрая настройка собственного VPN с протоколами VLESS и Trojan. Обходите цензуру, используя панель Marzban. Военный уровень конфиденциальности и высокая скорость для доступа к AI-ресурсам.">
+    <meta name="keywords" content="telegram VPN, sing-box, VPN for IOS, telegram vpn, VPN for Windows, Reality, VPN for Ubuntu, VPN for Android, gaming VPN, VLESS VPN, netflix VPN, VPN for Fedora, VPN for Linux, v2RayTun download, v2Ray download, streaming VPN, VPN tutorial, VPN for iPadOS, wireless, V2RayTun config, v2RayN VPN, VPN, v2RayTun, VLESS, Xray, V2BOX, V2Ray config, VPN ru 2025, VLESS proxy, v2box, v2Ray, planet vpn, VPN Android, Windows VPN, VPN IOS, MacOS VPN, VPN MacOS, Debian VPN, saturn vpn, VPN Windows, Fedora VPN, telegram vpn key, Dragonfly BSD VPN, iPadOS VPN, free vpn telegram, IOS VPN, Android VPN, Arch VPN, OpenBSD VPN, FreeBSD VPN, безопасный VPN, быстрый VPN, бесплатный VPN, WireGuard аналоги, WireGuard альтернативы, ВПН РФ, ВПН для телефона, скачать ВПН windows, vpn на телефон, vpn для ПК, vpn для компьютера, дешевый VPN, скачать ВПН android, VPN ключ для телефона, VPN обход блокировок, приватный VPN, скачать ВПН ios, vpn в телеграм, VPN подписка, VPN купить, proxy VLESS, proxy Xray, proxy VMess, VPN ключ для компьютера, xray ключи, v2RayTun ключ бесплатно">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --bg-dark: #1F2937; 
+            --primary-glow: #4F46E5; 
+            --secondary-accent: #F97316; 
+            --text-light: #E5E7EB; 
+            --terminal-bg: #374151;
+            --terminal-text: #D1D5DB;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            background-image: none;
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glow-button {
+            background-color: var(--primary-glow);
+            color: white;
+            text-shadow: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+        }
+
+        .glow-button:hover {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+            transform: translateY(-2px);
+            background-color: #6366F1;
+        }
+
+        @keyframes fadeInMove {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animated-section > * {
+            opacity: 0;
+            animation: fadeInMove 0.8s ease-out forwards;
+        }
+
+        .animated-section > *:nth-child(1) { animation-delay: 0.1s; }
+        .animated-section > *:nth-child(2) { animation-delay: 0.2s; }
+        .animated-section > *:nth-child(3) { animation-delay: 0.3s; }
+        .animated-section > *:nth-child(4) { animation-delay: 0.4s; }
+        .animated-section > *:nth-child(5) { animation-delay: 0.5s; }
+
+        .terminal-prompt {
+            color: var(--secondary-accent);
+            font-weight: bold;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.03);
+            border-color: var(--primary-glow);
+            box-shadow: 0 0 10px rgba(79, 70, 229, 0.4); 
+        }
+
+        .guide-step {
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .guide-step:hover {
+            background-color: #2F3B4E;
+            border-color: var(--secondary-accent);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <header class="max-w-7xl mx-auto flex justify-between items-center py-6 border-b border-gray-600">
+        <div class="text-2xl font-bold tracking-widest text-[var(--primary-glow)]">
+            ПЕРСОНАЛЬНЫЙ VPN
+        </div>
+        <nav class="hidden md:flex space-x-8 text-sm">
+            <a href="#features" class="hover:text-[var(--primary-glow)] transition duration-200">ФУНКЦИИ</a>
+            <a href="#pricing" class="hover:text-[var(--primary-glow)] transition duration-200">КОНФИГУРАЦИИ</a>
+            <a href="#guide" class="text-[var(--secondary-accent)] hover:text-white transition duration-200">РУКОВОДСТВО ПО НАСТРОЙКЕ</a>
+            <a href="#faq" class="hover:text-[var(--primary-glow)] transition duration-200">FAQ</a>
+        </nav>
+    </header>
+
+    <section class="max-w-7xl mx-auto py-20 text-center animated-section">
+        <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-tight leading-tight">
+            <span class="block">БЫСТРЫЙ VPN И</span>
+            <span class="block text-[var(--secondary-accent)]">ОБХОД БЛОКИРОВОК</span>
+        </h1>
+        <p class="text-xl md:text-2xl mb-10 text-[var(--text-light)]/80 max-w-3xl mx-auto">
+            Децентрализованные протоколы VLESS и Trojan, разработанные для высокоскоростного, военного уровня обфускации. Обходите цензуру без следа.
+        </p>
+        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button inline-block px-10 py-4 rounded-full uppercase text-sm tracking-widest shadow-lg">
+            Начните Развертывание Сейчас
+        </a>
+    </section>
+
+    <section id="features" class="max-w-7xl mx-auto py-20 border-t border-gray-600">
+        <h2 class="text-4xl font-bold mb-16 text-center">РАСШИРЕННЫЙ НАБОР ПРОТОКОЛОВ ДЛЯ ОБХОДА ЦЕНЗУРЫ</h2>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+            <div class="feature-card p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/30 transition-all duration-300">
+                <div class="text-4xl mb-4 text-[var(--primary-glow)]">
+                    <span class="inline-block" style="transform: rotate(45deg);">&#x25B2;</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-white">VLESS / VMESS</h3>
+                <p class="text-sm text-[var(--text-light)]/70">Методы передачи следующего поколения для превосходной устойчивости к глубокой проверке пакетов (DPI).</p>
+            </div>
+            <div class="feature-card p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/30 transition-all duration-300">
+                <div class="text-4xl mb-4 text-[var(--secondary-accent)]">
+                    &#x25C7;
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-white">TROJAN</h3>
+                <p class="text-sm text-[var(--text-light)]/70">Маскируется под стандартный HTTPS-трафик, делая его практически необнаружимым для обычных сетевых фильтров.</p>
+            </div>
+            <div class="feature-card p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/30 transition-all duration-300">
+                <div class="text-4xl mb-4 text-[var(--primary-glow)]">
+                    &#x25A9;
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-white">MARZBAN PANEL</h3>
+                <p class="text-sm text-[var(--text-light)]/70">Открытый, удобный веб-интерфейс для легкого управления множеством пользовательских конфигураций VPN.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="max-w-7xl mx-auto py-20 border-t border-gray-600">
+        <h2 class="text-4xl font-bold mb-16 text-center text-[var(--secondary-accent)]">РЕКОМЕНДУЕМЫЕ VPS КОНФИГУРАЦИИ (ТАРИФЫ)</h2>
+        <p class="text-center mb-10 text-lg text-[var(--text-light)]/70 max-w-4xl mx-auto">
+            Для стабильной работы Marzban и высокой скорости соединения выберите подходящий тариф VPS от провайдера. Начните с DE-PROMO для теста или выберите R9-2 для максимальной производительности.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8 text-center animated-section">
+            
+            <div class="p-8 rounded-xl border-2 border-gray-700 bg-[var(--terminal-bg)]/50 transition-all duration-300 hover:scale-[1.02] hover:border-[var(--primary-glow)] shadow-md shadow-gray-900/40" style="animation-delay: 0.1s;">
+                <h3 class="text-2xl font-bold mb-4 text-[var(--primary-glow)]">
+                    <span class="inline-block mr-2 text-3xl">🇩🇪</span> DE-PROMO
+                </h3>
+                <div class="space-y-3 text-left text-base text-[var(--text-light)]/90">
+                    <p>🌐 1 vCPU</p>
+                    <p>💾 4 ГБ ОЗУ / 10 ГБ NVMe</p>
+                    <p>⚡️ Ryzen 9 3900x</p>
+                    <p>🔗 Сеть 100 Mbps</p>
+                </div>
+                <div class="mt-8">
+                    <span class="text-4xl font-bold text-white">149 ₽</span><span class="text-lg text-[var(--text-light)]/70"> /месяц</span>
+                </div>
+                <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-6 w-full py-3 rounded-lg uppercase text-sm tracking-widest shadow-lg inline-block">
+                    ЗАКАЗАТЬ
+                </a>
+            </div>
+
+            <div class="p-8 rounded-xl border-4 border-[var(--secondary-accent)] bg-[var(--terminal-bg)]/70 transition-all duration-300 shadow-xl shadow-orange-900/70 relative">
+                <span class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[var(--secondary-accent)] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                    РЕКОМЕНДУЕТСЯ
+                </span>
+                <h3 class="text-3xl font-bold mb-4 text-white">
+                    <span class="inline-block mr-2 text-3xl">🇩🇪</span> DE-R9-2
+                </h3>
+                <div class="space-y-3 text-left text-base text-[var(--text-light)]/90">
+                    <p>🌐 1 vCPU</p>
+                    <p>💾 2 ГБ ОЗУ / 30 ГБ NVMe</p>
+                    <p>⚡️ Ryzen 9 5950x</p>
+                    <p>🔗 Сеть 1000 Mbps</p>
+                </div>
+                <div class="mt-8">
+                    <span class="text-5xl font-bold text-[var(--secondary-accent)]">249 ₽</span><span class="text-xl text-[var(--text-light)]/70"> /месяц</span>
+                </div>
+                <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="mt-6 w-full py-3 rounded-lg uppercase text-sm tracking-widest bg-[var(--secondary-accent)] text-white font-bold hover:bg-white hover:text-gray-900 transition duration-300 shadow-md inline-block">
+                    ЗАКАЗАТЬ
+                </a>
+            </div>
+
+            <div class="p-8 rounded-xl border-2 border-gray-700 bg-[var(--terminal-bg)]/50 transition-all duration-300 hover:scale-[1.02] hover:border-[var(--primary-glow)] shadow-md shadow-gray-900/40" style="animation-delay: 0.3s;">
+                <h3 class="text-2xl font-bold mb-4 text-[var(--primary-glow)]">
+                    <span class="inline-block mr-2 text-3xl">🇩🇪</span> DE-R9-4
+                </h3>
+                <div class="space-y-3 text-left text-base text-[var(--text-light)]/90">
+                    <p>🌐 2 vCPU</p>
+                    <p>💾 4 ГБ ОЗУ / 60 ГБ NVMe</p>
+                    <p>⚡️ Ryzen 9 5950x</p>
+                    <p>🔗 Сеть 1000 Mbps</p>
+                </div>
+                <div class="mt-8">
+                    <span class="text-4xl font-bold text-white">399 ₽</span><span class="text-lg text-[var(--text-light)]/70"> /месяц</span>
+                </div>
+                <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-6 w-full py-3 rounded-lg uppercase text-sm tracking-widest shadow-lg inline-block">
+                    ЗАКАЗАТЬ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="guide" class="max-w-7xl mx-auto py-20 border-t border-gray-600">
+        <h2 class="text-4xl font-bold mb-10 text-center">РУКОВОДСТВО ПО РАЗВЕРТЫВАНИЮ // НАСТРОЙКА VPN С MARZBAN</h2>
+        <p class="text-center mb-10 text-lg text-[var(--text-light)]/70">
+            Пять простых шагов для настройки вашего личного, самоуправляемого VPN-сервера Marzban.
+        </p>
+
+        <div class="space-y-6 md:space-y-8 animated-section">
+            
+            <div class="guide-step p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50 shadow-md shadow-gray-900/40">
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl font-bold text-[var(--secondary-accent)] shrink-0 pt-1">
+                        01
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[var(--primary-glow)] mb-2">
+                            СИСТЕМНЫЕ ТРЕБОВАНИЯ И ПОДГОТОВКА
+                        </h3>
+                        <div class="text-[var(--terminal-text)] font-mono text-sm leading-relaxed">
+                            <p><span class="terminal-prompt">Мин. Спецификации:</span> 1 vCPU, 1-2 ГБ RAM, 10-20 ГБ Диск.</p>
+                            <p><span class="terminal-prompt">ОС:</span> Рекомендуется Debian 11 или Debian 12.</p>
+                            <p><span class="terminal-prompt">Примечание:</span> Выберите VPS и убедитесь, что система соответствует минимальным требованиям для стабильной работы.</p>
+                        </div>
+                        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-4 px-6 py-2 rounded-lg uppercase text-xs tracking-widest shadow-lg inline-block">
+                            ВЫБРАТЬ VPS
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-step p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50 shadow-md shadow-gray-900/40" style="animation-delay: 0.6s;">
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl font-bold text-[var(--secondary-accent)] shrink-0 pt-1">
+                        02
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[var(--primary-glow)] mb-2">
+                            АВТОМАТИЧЕСКАЯ УСТАНОВКА
+                        </h3>
+                        <div class="text-[var(--terminal-text)] font-mono text-sm leading-relaxed">
+                            <p><span class="terminal-prompt">Действие:</span> При заказе VPS выберите "Debian 11/12" и найдите "Marzban" в списке предустановленного ПО.</p>
+                            <p><span class="terminal-prompt">Результат:</span> После оплаты Marzban будет установлен автоматически (занимает ~3-4 минуты).</p>
+                        </div>
+                        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-4 px-6 py-2 rounded-lg uppercase text-xs tracking-widest shadow-lg inline-block">
+                            ВЫБРАТЬ VPS
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-step p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50 shadow-md shadow-gray-900/40" style="animation-delay: 0.7s;">
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl font-bold text-[var(--secondary-accent)] shrink-0 pt-1">
+                        03
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[var(--primary-glow)] mb-2">
+                            ДОСТУП К ПАНЕЛИ УПРАВЛЕНИЯ
+                        </h3>
+                        <div class="text-[var(--terminal-text)] font-mono text-sm leading-relaxed">
+                            <p><span class="terminal-prompt">Получение:</span> В панели хостинга (раздел 'Серверы') нажмите 'Инструкция'.</p>
+                            <p><span class="terminal-prompt">Вход:</span> Используйте предоставленную ссылку, логин и пароль администратора для входа в веб-панель Marzban.</p>
+                        </div>
+                        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-4 px-6 py-2 rounded-lg uppercase text-xs tracking-widest shadow-lg inline-block">
+                            ВЫБРАТЬ VPS
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-step p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50 shadow-md shadow-gray-900/40" style="animation-delay: 0.8s;">
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl font-bold text-[var(--secondary-accent)] shrink-0 pt-1">
+                        04
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[var(--primary-glow)] mb-2">
+                            СОЗДАНИЕ НОВОЙ КОНФИГУРАЦИИ
+                        </h3>
+                        <div class="text-[var(--terminal-text)] font-mono text-sm leading-relaxed">
+                            <p><span class="terminal-prompt">Путь:</span> В панели Marzban перейдите в 'Users'.</p>
+                            <p><span class="terminal-prompt">Настройка:</span> Нажмите 'Create new user', выберите протокол (напр., VLESS) и нажмите 'Save'.</p>
+                            <p><span class="terminal-prompt">Результат:</span> Будет сгенерирована уникальная ссылка или QR-код для подключения вашего VPN.</p>
+                        </div>
+                        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-4 px-6 py-2 rounded-lg uppercase text-xs tracking-widest shadow-lg inline-block">
+                            ВЫБРАТЬ VPS
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="guide-step p-6 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50 shadow-md shadow-gray-900/40" style="animation-delay: 0.9s;">
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl font-bold text-[var(--secondary-accent)] shrink-0 pt-1">
+                        05
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[var(--primary-glow)] mb-2">
+                            ИМПОРТ И ПОДКЛЮЧЕНИЕ
+                        </h3>
+                        <div class="text-[var(--terminal-text)] font-mono text-sm leading-relaxed">
+                            <p><span class="terminal-prompt">Клиенты:</span> Используйте V2rayTun, Hiddify или другой клиент.</p>
+                            <p><span class="terminal-prompt">Действие:</span> В приложении выберите 'Импорт конфигурации' и вставьте ссылку или отсканируйте QR-код.</p>
+                            <p><span class="terminal-prompt">СТАТУС:</span> Готово. Высокоскоростное VPN-соединение устанавливается одним кликом.</p>
+                        </div>
+                        <a href="https://xorek.cloud/ru/vps?from=15" target="_blank" class="glow-button mt-4 px-6 py-2 rounded-lg uppercase text-xs tracking-widest shadow-lg inline-block">
+                            ВЫБРАТЬ VPS
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="faq" class="max-w-7xl mx-auto py-20 border-t border-gray-600">
+        <h2 class="text-4xl font-bold mb-10 text-center text-[var(--secondary-accent)]">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ (FAQ)</h2>
+        <div class="space-y-4 max-w-4xl mx-auto">
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Нужен ли собственный домен для работы VLESS/Trojan?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Да, для максимальной устойчивости и маскировки трафика под обычный веб-сайт (с использованием TLS-шифрования) настоятельно рекомендуется использовать собственный домен, привязанный к вашему VPS. Это критично для обхода продвинутых методов блокировки.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Какую скорость соединения я могу ожидать?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Скорость зависит от нескольких факторов: пропускной способности канала вашего VPS, его географического положения относительно конечного ресурса и загруженности сети. Протоколы VLESS/Trojan минимизируют накладные расходы, что позволяет использовать канал VPS с максимальной эффективностью.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Можно ли отслеживать потребление трафика?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Да. Панель Marzban предоставляет детальные графики и статистику по каждому созданному пользователю. Вы можете видеть текущую активность, общее потребление трафика (входящий/исходящий) и устанавливать лимиты для каждого клиента.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Почему стоит использовать VLESS/Trojan?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Протоколы VLESS и Trojan разработаны для обфускации (маскировки) трафика под обычный HTTPS, что обеспечивает значительно лучшую устойчивость к глубокой проверке пакетов (DPI) и более высокую скорость соединения, чем традиционные протоколы.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Нужен ли мне собственный VPS?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Да. Marzban устанавливается на Ваш собственный виртуальный сервер (VPS). Это дает Вам полный контроль над конфиденциальностью, скоростью и настройками, гарантируя, что только Вы используете ресурсы сервера.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Какое клиентское ПО мне понадобится?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Для подключения к вашему серверу VLESS/Trojan понадобится совместимый клиент, такой как V2RayNG (Android), V2rayTun (iOS), Qv2ray или NekoRay (Windows/Linux). Эти приложения поддерживают передовые протоколы обфускации.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Чем панель Marzban отличается от ручной настройки?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Marzban предоставляет удобный веб-интерфейс, который значительно упрощает управление: создание, изменение и удаление учетных записей, а также мониторинг трафика и скорости для каждого пользователя. Это делает развертывание персонального VPN доступным даже для нетехнических пользователей.
+                </p>
+            </div>
+            <div class="p-5 rounded-lg border border-gray-700 bg-[var(--terminal-bg)]/50">
+                <h3 class="text-xl font-bold text-[var(--primary-glow)] mb-2">
+                    Обеспечивает ли VLESS лучшую конфиденциальность?
+                </h3>
+                <p class="text-sm text-[var(--text-light)]/80">
+                    Да, протокол VLESS, в отличие от устаревших методов, не оставляет излишней информации в начале соединения, что делает его более устойчивым к DPI и повышает уровень вашей конфиденциальности и безопасности при доступе к зарубежным AI-ресурсам.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto text-center py-8 px-4 border-t border-b border-yellow-700 bg-yellow-900/10 rounded-lg mb-10">
+        <h3 class="text-2xl font-bold text-[var(--secondary-accent)] mb-4">
+            [ВАЖНОЕ ЮРИДИЧЕСКОЕ ПРИМЕЧАНИЕ]
+        </h3>
+        <p class="text-lg text-yellow-400">
+            Наш сервис не предназначен для обхода блокировок, установленных Роскомнадзором (РКН), и не должен использоваться для доступа к ресурсам, запрещенным на территории Российской Федерации.
+        </p>
+        <p class="text-lg text-yellow-400 mt-2">
+            Данный VPN используется исключительно для доступа к международным AI-ресурсам, исследовательским платформам и облачным сервисам, которые могут быть географически ограничены.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ПЕРСОНАЛЬНЫЙ VPN. Все права защищены. | Создано для Конфиденциальности.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.animated-section');
+            sections.forEach(section => {
+                section.classList.remove('animated-section'); 
+                void section.offsetWidth;
+                section.classList.add('animated-section'); 
+            });
+        });
+    </script>
+</body>
+</html>
